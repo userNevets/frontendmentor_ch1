@@ -1,0 +1,226 @@
+
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'HankenGrotesk-Bold';
+    src: url('./assets/fonts/static/HankenGrotesk-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'HankenGrotesk-ExtraBold';
+    src: url('./assets/fonts/static/HankenGrotesk-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'HankenGrotesk-Medium';
+    src: url('./assets/fonts/static/HankenGrotesk-Medium.ttf');
+}
+
+
+body {
+    font-family: 'HakensGrotesk';
+    background-color: #fff;
+    text-align: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container {
+    height: 425px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    margin: 0 auto 0 auto;
+    background-color: #fff;
+
+    box-shadow: 0px 9px 22px -10px rgba(0, 0, 0, .6);
+    font-family: 'HankenGrotesk';
+}
+
+.left-container {
+    background: linear-gradient(#6442fc, #352feb);
+    border-radius: 30px;
+
+    color: #fff;
+
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.your-result, .summary {
+    font-size: 1.2rem;
+    font-family: 'HankenGrotesk-Bold';
+    opacity: 0.7;
+}
+
+.score-icon {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0));
+    margin: 0 auto 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-icon h1 {
+    font-family: 'HankenGrotesk-ExtraBold';
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.score-icon h3 {
+    font-family: 'HankenGrotesk';
+    margin: 0;
+    font-size: .85rem;
+    opacity: 0.5;
+}
+
+.score-text h3 {
+    font-family: 'HankenGrotesk';
+    font-size: 1.7rem;
+}
+
+.score-text p {
+    font-family: 'HankenGrotesk';
+    margin-left: 14%;
+    margin-right: 14%;
+    opacity: 0.7;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto 0 auto;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.summary {
+    font-family: 'HankenGrotesk-Bold';
+    color: #2b3149;
+    opacity: 1;
+    width: 30%;
+    margin-left: 30px;
+}
+
+.right-content {
+    
+}
+
+.reaction,
+.memory,
+.verbal,
+.visual {
+    width: 80%;
+    margin: 4% auto;
+
+    background-color: grey;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-family: 'HankenGrotesk';
+    text-decoration: none;
+}
+
+.reaction p,
+.memory p,
+.verbal p,
+.visual p {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.icon-and-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-and-name img {
+    margin: auto 12%;
+}
+
+.content-score {
+    display: flex;
+    flex-direction: row;
+
+    width: 70px;
+    font-family: 'HankenGrotesk-Bold';
+}
+
+.actual-score {
+    color: #333144;
+}
+
+.out-of {
+    color: #9d99a4;
+}
+
+.reaction {
+    background-color: #fff6f6;
+}
+
+.reaction-title {
+    color: #ff5655;
+    margin: auto 0 auto 0;
+}
+
+
+
+.memory {
+    background-color: #fffbf2;
+}
+
+.memory-title {
+    color: #ffb21e;
+    margin: auto 0 auto 0;
+}
+
+.verbal {
+    background-color: #f3fafa;
+}
+
+.verbal-title {
+    color: #03bb8f;
+    margin: auto 0 auto 0;
+}
+
+.visual {
+    background-color: #f3f3fd;
+}
+
+.visual-title {
+    color: #1126d5;
+    margin: auto 0 auto 0;
+}
+
+button {
+    width: 80%;
+    height: 45px;
+    margin: 0 auto 0 auto;
+    border: none;
+    border-radius: 45px;
+
+    font-size: 1rem;
+    color: white;
+    background-color: #303b59;
+}
